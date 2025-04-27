@@ -1,16 +1,14 @@
-
-import logo from '@/public/images/logo.svg'
+import logo from "@/public/images/logo.svg";
 
 const Navbar = () => {
   return (
-    <div className='flex border'>
-        <img src="/images/logo.svg" alt="" className=''/>
-        <button>
-            <img src="/images/icon-moon.svg" alt="" className='' style={{filter: 'invert(1'}} />
-
-        </button>
+    <div className="flex border border-full">
+      <img src="/images/logo.svg" alt="" className="" />
+      <button>
+        <img src="/images/icon-sun.svg" alt="" />
+      </button>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
