@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex items-center  flex-col justify-center bg-gradient-to-t from-blue-950 to-gray-950">
+    <div className="flex items-center h-screen  flex-col justify-center bg-gradient-to-t from-blue-950 to-gray-950">
       <Navbar />
       <Extensions />
     </div>
